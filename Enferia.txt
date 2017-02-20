@@ -1,0 +1,43 @@
+Game Design:
+Twórca: Mateusz Krawczyk
+Nazwa: Enferia
+Krótki opis: Kraina wiecznego lodu i mozu. Istoty walczą o przeżycie na tych nieprzyjaznych stepach.
+
+Opis gry:
+
+Gra jest oparta na podobnym systemie jak PBF, przy czym jest aplikacją do poprania i zagrania
+w nią. Postawiona na serwerze łączy graczy.*(Strona internetowa pozwali na zalogowanie się i wejście
+do świata poprzez login i hasło)*.
+
+ 	***Mechanika Gry***
+		-Pisanie postów co się robi w danej chwili twórca wyprawy tworzy rys fabularny i zachowuje się jak GM
+		 jak w sesji rpg czyli prowadzi rzuty(jeśli to potrzebne).
+		-Aplikacja będzie miała wprowadzona, kość która będzie pokazywała adminowi jaki oraz rzucającemu w oparciu o rzut
+		 GM będzie podejmował akcję.
+		-Postacie będą zbierać doświadczenie w wyprawach zmieniać swoje statystyki oraz zdobtwać/Kupować ekwipunek.
+		-Tawerna będzie kluczowym aspektem gry bo tam zazwyczaj będziemy komunikować się z innymi graczami, a raczej z ich
+		 postaciami
+	***Świat***
+		- zawiera lokacje takie jak tawerny, oraz lokacje do których można wejść przez zapisanie się do
+		wyprawy(tawerny otwarte są dla każdego). 
+
+	***Fabuła***
+		DO USTALENIA
+
+Projekt gry:
+	***Mechanika Gry***
+		-Logowanie z hasłe: 
+			*Zarejestrowanie się na stronie, oraz wypełnienie danych osobowaych.
+			*Stworzenie bazy danych trzymajacej wszystkie loginy i hasła.
+			*
+		-Interface:
+			*Gra będzie prostą aplikacją wykorzystującą proste grafiki wektorowe.
+			*Ekran ładowania oraz logowania.
+			*Ekran mapy Świata z miejscem gdzie się aktualnie znajdujemy oraz punktami gdzie można iść.
+			*Dostęp do karty postacji z jej ekwipunkiem oraz statystykami
+			*Duży panel do pisania postów oraz wglądu co się ostatnio działo.
+			*Lista ostatnich aktywności z podziałem na kolory(np. inne kolory dla dotyczących ciebie a inne dla znajomych)
+			*Chat poza immersyjny czyli poza swoją fabułą dla interakcji podzielony na kilka kanałów.
+			*Chat tawerny immersyjny w postaci instancji do której można wchodzić i rozmawić.
+			*Kilka przycisków, które będą odpowiadały za obcje tj niewidoczność.
+			*

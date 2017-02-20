@@ -1,0 +1,2 @@
+LOGOWANIE:
+-passwordbox( lepiej zadysponować hasło) poczytać troche o metodach chowania hasła;
