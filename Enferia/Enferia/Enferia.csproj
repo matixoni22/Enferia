@@ -79,12 +79,9 @@
     <Compile Include="Models\LoginValidation.cs" />
     <Compile Include="Models\UserLoginParemeters.cs" />
     <Compile Include="Models\RegistrySystem.cs" />
-    <Compile Include="ViewModels\LoginPageNavigationViewModel.cs" />
     <Compile Include="ViewModels\LoginPageViewModel.cs" />
     <Compile Include="ViewModels\RegistrationPageViewModel.cs" />
-    <Compile Include="Views\LoginPageNavigationView.xaml.cs">
-      <DependentUpon>LoginPageNavigationView.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="ViewModels\StartUpViewModel.cs" />
     <Compile Include="Views\RegistrationPageView.xaml.cs">
       <DependentUpon>RegistrationPageView.xaml</DependentUpon>
     </Compile>
@@ -99,10 +96,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Page Include="Views\LoginPageNavigationView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="Views\StartUpView.xaml.cs">
+      <DependentUpon>StartUpView.xaml</DependentUpon>
+    </Compile>
     <Page Include="Views\RegistrationPageView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +110,10 @@
     <Page Include="Views\MainWindowView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\StartUpView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

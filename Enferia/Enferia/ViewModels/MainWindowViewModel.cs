@@ -7,15 +7,11 @@ using Caliburn.Micro;
 
 namespace Enferia.ViewModels
 {
-    class MainWindowViewModel : Conductor<object>
+    class MainWindowViewModel : Conductor<IScreen>
     {
-        private LoginPageViewModel log_Page = new LoginPageViewModel();
-        private RegistrationPageViewModel reg = new RegistrationPageViewModel();
-        private LoginPageNavigationViewModel nav_Bar = new LoginPageNavigationViewModel();
-
         public MainWindowViewModel()
-        {    
-            ActivateItem(log_Page);
+        {
+            ActivateItem(new StartUpViewModel());
         }
     }
 }

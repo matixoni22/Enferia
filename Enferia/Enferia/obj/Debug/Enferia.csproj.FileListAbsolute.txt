@@ -33,7 +33,7 @@ G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\GeneratedInternalTypeHelper.g.cs
 G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\App.baml
 G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\RegistrationPageView.g.cs
 G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\RegistrationPageView.baml
-G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\LoginPageNavigationView.g.cs
 G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\LoginPageView.g.cs
-G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\LoginPageNavigationView.baml
 G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\LoginPageView.baml
+G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\StartUpView.g.cs
+G:\Projekty\Enferia\Enferia\Enferia\obj\Debug\Views\StartUpView.baml

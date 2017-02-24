@@ -10,7 +10,7 @@ using Caliburn.Micro;
 
 namespace Enferia.ViewModels
 {
-    class LoginPageViewModel : PropertyChangedBase
+    class LoginPageViewModel : Screen
     {
         private readonly UserLoginParameters _user;
 
@@ -44,5 +44,13 @@ namespace Enferia.ViewModels
             LoggingSystem login_system = new LoggingSystem(_user.login_TextBox, _user.password_TextBox);
             MessageBox.Show(login_system.Login_Passing());
         }
+
+        /* protected override void OnViewLoaded(object view)
+         {
+             base.OnViewLoaded(view);
+             login_TextBox = "login";
+             password_TextBox = "password";
+         }*/
+
     }
 }

@@ -3,6 +3,7 @@ namespace Enferia {
     using System.Collections.Generic;
     using Caliburn.Micro;
     using Enferia.ViewModels;
+    using System.ComponentModel;
 
     public class AppBootstrapper : BootstrapperBase {
         SimpleContainer container;
@@ -16,10 +17,10 @@ namespace Enferia {
 
             container.Singleton<IWindowManager, WindowManager>();
             container.Singleton<IEventAggregator, EventAggregator>();
-            //container.PerRequest<IShell, ShellViewModel>();
             container.PerRequest<MainWindowViewModel>();
             container.PerRequest<LoginPageViewModel>();
             container.PerRequest<RegistrationPageViewModel>();
+            container.PerRequest<StartUpViewModel>();
         }
 
         protected override object GetInstance(Type service, string key) {
